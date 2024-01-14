@@ -1,0 +1,646 @@
+.nav
+{
+    background-color: rgb(73, 214, 214);
+    z-index: 9;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.nav_top
+{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+
+}
+.logo
+{
+    float: left;
+    width: 65%;
+}
+.logo img
+{
+    padding: 10px;
+}
+.nav_sides
+{
+    float: right;
+    padding-top: 25px;
+
+}
+.nav_sides a
+{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic,sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_sides a:hover
+{
+    color: white;
+    transition: all 0.5s ease;
+}
+.main
+{
+    background-image: url(images/image2.png);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 120vh;
+}
+.main .main_content
+{
+    padding-top: 290px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main .main_content h2
+{
+    color: crimson;
+    font-size: 50px;
+    font-family:cursive,Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 50px;
+}
+.main .main_content p
+{
+    font-size: 18px;
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:darkgreen;
+    padding-top: 50px;
+    line-height: 30px;
+    
+}
+.main .main_content .btnn
+{
+    padding-top: 10px;
+    text-align: center;
+}
+.main .main_content .btnn a
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(94, 3, 151);
+    color: white;
+    border: solid 1px white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.main .main_content .btnn a:hover
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: solid 3px orangered;
+    transition: 0.5s;
+}
+.product
+{
+    padding-bottom: 50px;
+}
+.product h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.product .prod_cont
+{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .prod_cont .item
+{
+    width: 33.33%;
+    padding: 10px;
+    height: auto;
+}
+.product .prod_cont .item:hover
+{
+    box-shadow: 5px 10px 8px #888888;
+}
+.product .prod_cont .item .item_img
+{
+    width: 100%;
+    height: 250PX;
+    overflow: hidden;
+}
+.product .prod_cont .item .item_img img
+{
+    width: 100%;
+    height: 250PX;
+}
+.product .prod_cont .item .item_desc
+{
+    text-align: center;
+}
+.product .prod_cont .item .item_desc h3
+{
+    padding: 5px;
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif;
+}
+.product .prod_cont .item .item_desc p
+{
+    font-size: 15px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product .prod_cont .item .item_desc a
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(94, 3, 151);
+    color: white;
+    border: solid 1px white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.product .prod_cont .item .item_desc a:hover
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: solid 3px orangered;
+    transition: 0.5s;
+}
+.product .product_button
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.product .product_button a
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(94, 3, 151);
+    color: white;
+    border: solid 1px white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.product .product_button a:hover
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: solid 3px orangered;
+    transition: 0.5s;
+}
+.keypoints
+{
+    padding: 20px;
+}
+.keypoints h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.keypoints .key_container
+{
+    display: flex;
+}
+.keypoints .key_container .key_content
+{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.keypoints .key_container .key_content li
+{
+    margin-top: 20px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.keypoints .key_container .key_img
+{
+    padding: 20px;
+    width: 40%;
+    margin-left: 100px;
+}
+.keypoints .key_container .key_img img
+{
+    width: 100%;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.test
+{
+    padding: 50px;
+    justify-content: center;
+}
+.test h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.test .test_cont
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.test_cont img
+{
+    max-width: 600px;
+    height: 500px;
+    margin-left: 270px;
+    text-align: center;
+    justify-content: center;
+}
+.carousel-caption h5
+{
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.carousel-caption p
+{
+    font-family: sans-serif;
+
+}
+.team
+{
+    padding: 50px;
+}
+.team h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.team .team_container
+{
+    display: flex;
+}
+.team .team_container .team_video
+{
+    width: 40%;
+    padding: 20px;
+    padding-left: 200px;
+    float: left;
+}
+.team .team_container .team_video video
+{
+    width: 500px;
+    border: 5px solid orange;
+    outline: none;
+}
+.team .team_container .team_content
+{
+    width: 40%;
+    padding: 20px;
+    padding-left: 200px;
+
+}
+.team .team_container .team_content p
+{
+    width: 550px;
+    font-size: 15px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feed
+{
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+.feed h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.feed .feed_form
+{
+    text-align: center;
+}
+.feed .feed_form form
+{
+    padding: 20px;
+}
+.feed .feed_form form input
+{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.feed .feed_form form input:hover
+{
+    box-shadow: 0px 3px 65px 0px rgba(186, 33, 33, 0.25);
+    margin: 8px;
+    transition: 0.5s;
+}
+.feed .feed_form form textarea
+{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.feed .feed_form form textarea:hover
+{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+    margin: 8px;
+    transition: 0.5s;
+}
+.feed .feed_form form button
+{
+    width: 10%;
+    margin: 5px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.feed .feed_form form button:hover
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: solid 3px orangered;
+    transition: 0.5s;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+
+}
+.form-container{
+   background: #fff;
+   width: 300px;
+   height: 400px;
+   position: relative;
+   text-align: center;
+   padding: 20px;
+   margin: auto;
+   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+   display: inline-block;
+}
+.form-container form{
+   max-width: 300px;
+   padding: 0 20px;
+   position: absolute;
+   top: 130px;
+   transition: transform 1s;
+   
+}
+form input{
+   width: 100%;
+   height: 30px;
+   margin: 10px 0;
+   padding: 0 10px;
+   border: 1px solid #acc;
+
+}
+.form-btn{
+   width: 100%;
+   border: none;
+   cursor: pointer;
+   margin: 10px 0;
+}
+
+form.btn:focus{
+   outline: none;
+}
+
+#LoginForm{
+   left: -300px;
+}
+#RegForm{
+   left: 0;
+}
+form a{
+   font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+@media only screen and (max-width: 800px){
+    .row {
+        text-align: center  ;
+    }
+    .col-2 , .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    
+}
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.abt
+{
+    padding: 50px;
+    background-image: url(back.jpg);
+}
+.abt h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.abt .abt_contain
+{
+    margin: 5px;
+}
+.abt .abt_contain p
+{
+    font-size: 15px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont
+{
+    padding: 50px;
+    background-image: url(image2.png);
+}
+.cont h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.cont .socials
+{
+    padding: 20px;
+}
+.cont .socials p
+{
+    font-size: 25px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont .socials i
+{
+    font-size: 20px;
+    transition: 0.5s;
+}
+.cont .socials i:hover
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+footer
+{
+    background-color: darkgray;
+    padding: 50px;
+}
+footer .logo
+{
+    width: 50px;
+}
+
+footer .page
+{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+footer .page h3{
+    color: #000099;
+}
+
+footer .page a
+{
+    padding: 10px;
+    text-align: left;
+    justify-content: center;
+}
+
+footer .page a:hover{
+    color: white;
+    font-style: bold;
+}
+footer .doc
+{
+    font-size: 15px;
+    text-align: left;
+}
+footer .doc a
+{
+    padding: 5px;
+}
+footer .doc a:hover
+{
+    color: white;
+    font-style: bold;
+    transition: 0.2s;
+}
+footer .socials a
+{
+    padding-right: 10px;
+}
+footer .contact a
+{
+    padding-right: 10px;
+}
